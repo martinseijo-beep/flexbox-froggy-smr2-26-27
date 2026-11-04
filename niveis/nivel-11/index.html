@@ -1,25 +1,47 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="gl">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Nivel 11 · Flexbox</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xogo das Ras - Flexbox</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main>
-    <a href="../../index.html">← Volver á portada</a>
-    <h1>Nivel 11</h1>
-    <p><strong>Obxectivo:</strong> escribe aquí que debes conseguir neste nivel.</p>
 
-    <!-- TODO: adapta a disposición e o número de ras / nenúfares ao teu nivel. -->
-    <div class="estanque" aria-label="Representación do nivel 11">
-      <div class="nenufar" aria-hidden="true"></div>
-      <span class="ra" role="img" aria-label="Ra">🐸</span>
-    </div>
+    <main>
+        <h1>🐸 Juego Ranas</h1>
 
-    <h2>Como se resolve?</h2>
-    <p>Explica aquí as propiedades de Flexbox que empregaches e por que funcionan.</p>
-  </main>
+        <p>Axuda á ra a chegar ao seu nenúfar utilizando Flexbox.</p>
+
+        <h2>Nivel 11</h2>
+
+        <p>
+            Utiliza <strong>justify-content</strong> para mover a ra
+            horizontalmente ata o nenúfar.
+        </p>
+
+        <p class="comando">
+            justify-content: __________;
+        </p>
+
+        <div class="estanque">
+            <span class="ra">🐸</span>
+            <div class="nenufar"></div>
+        </div>
+
+        <h2>Comandos dispoñibles</h2>
+
+        <ul>
+            <li>justify-content: flex-start;</li>
+            <li>justify-content: center;</li>
+            <li>justify-content: flex-end;</li>
+            <li>align-items: center;</li>
+            <li>flex-direction: column;</li>
+        </ul>
+
+        <p>Modifica o CSS ata conseguir que a ra chegue ao nenúfar.</p>
+
+    </main>
+
 </body>
 </html>
